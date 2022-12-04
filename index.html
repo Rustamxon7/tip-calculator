@@ -23,10 +23,10 @@
 
     <!-- Main container calculator -->
     <div class="container">
-      <div class="main_item">
+      <form accept="#" class="main_item">
         <div class="calculator__left_item">
-          <h6 class="Bill_title">Bill</h6>
-          <input type="text" placeholder="$" />
+          <label class="Bill_title" for="bill_input">Bill</label>
+          <input type="text" placeholder="$" id="bill_input" />
           <h6 class="select_title">Select tip %</h6>
           <div class="selects">
             <button class="select_btns">5%</button
@@ -34,11 +34,26 @@
             ><button class="select_btns">15%</button
             ><button class="select_btns">25%</button
             ><button class="select_btns">50%</button>
-            <input type="number">
+            <input type="number" />
+          </div>
+          <div class="Number_people">
+            <label for="people_numbers">Number of people</label>
+            <label for="people_numbers">Can't be zero</label>
+            <input type="number" name="" id="people_numbers"
+           ><ion-icon name="person-circle-outline"></ion-icon></input>
           </div>
         </div>
         <div class="calculator__right_item"></div>
-      </div>
+      </form>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
