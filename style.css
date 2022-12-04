@@ -21,7 +21,11 @@ font-family: 'Space Mono', monospace;
 
 }
 
-
+.main-title{
+  color: rgb(119, 116, 116);
+margin-bottom: 5rem;
+font-weight: 500;
+}
 .container {
 }
 .main_item {
@@ -96,19 +100,57 @@ cursor: pointer;
 .calculator__right_item {
 width: 50%;
 background-color: aquamarine;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
-.tip_amount {
+.tip_amounts {
+  background-color: hsl(183, 100%, 15%);
+  width: 90%;
+  height: 90%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+gap: 20%;
 }
 .tip_title {
+  color: #ffff;
+font-size: 1rem;
+}
+
+.tip__amount-item{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.tip_amount-item2{
+  display: flex;
+  justify-content: space-around;
 }
 .person_span {
+  color: rgb(107, 106, 106);
 }
 .Total_number {
+  font-size: 2.4rem;
+  color: hsl(183, 60%, 65%);
+  font-weight: 600;
 }
 .total_title {
+  color: #ffff;
+  font-size: 1rem;
 }
 .reset_btn {
+   width: 80%;
+  margin: 0 auto;
+   border-radius: 0.5rem;
+   border: none;
+   height: 2.7rem;
+   background-color: hsl(183, 78%, 74%);
+   color: hsl(182, 93%, 12%);
+   font-weight: 700;
 }
 
 /* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
