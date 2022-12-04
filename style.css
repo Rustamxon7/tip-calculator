@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+/* font-family: 'Space Mono', monospace; */
 html {
   font-size: 62.5%;
 }
@@ -15,6 +17,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 height: 100vh;
+font-family: 'Space Mono', monospace;
 
 }
 
@@ -34,22 +37,67 @@ height: 100vh;
 }
 .Bill_title {
   padding-top: 2rem;
+  
 }
 .input_bill{
+  border-radius: 0.5rem;
+  border: none;
+cursor: pointer;
+width: 26rem;
+height: 2.5rem;
+background-color:  hsl(185, 41%, 84%);
  
 }
+
+.input_bill:hover{
+  border: 2px solid hsl(172, 67%, 45%);
+  
+}
+
 .select_title {
+  padding-top: 1.7rem;
+ font-weight: 600;
+ font-size: 1rem;
 }
 .selects {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  
 }
 .select_btns {
+  width: 8rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  border: none;
+background-color: hsl(183, 100%, 15%);
+cursor: pointer;
 }
+
+.select_btns:hover{
+  background-color:  hsl(172, 67%, 45%);
+}
+
+.number_input{
+width: 8rem;
+border-radius: 0.5rem;
+border: none;
+cursor: pointer;
+
+}
+
+.number_input:hover{
+  border: 2px solid hsl(172, 67%, 45%);
+}
+
 .Number_people {
 }
 .calculator__right_item {
 width: 50%;
 background-color: aquamarine;
 }
+
 .tip_amount {
 }
 .tip_title {
