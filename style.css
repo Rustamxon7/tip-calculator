@@ -141,7 +141,6 @@ font-size: 1.4rem;
 
 .calculator__right_item {
 width: 50%;
-background-color: aquamarine;
 display: flex;
 flex-direction: column;
 justify-content: center;
