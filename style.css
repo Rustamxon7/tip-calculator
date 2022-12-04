@@ -8,6 +8,51 @@ html {
   font-size: 62.5%;
 }
 
+body{
+  background-color:  hsl(185, 41%, 84%);
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+
+}
+
+
+.container {
+}
+.main_item {
+  width: 470px;
+  height: 200px;
+  background-color: white;
+}
+.calculator__left_item {
+}
+.Bill_title {
+}
+.select_title {
+}
+.selects {
+}
+.select_btns {
+}
+.Number_people {
+}
+.calculator__right_item {
+}
+.tip_amount {
+}
+.tip_title {
+}
+.person_span {
+}
+.Total_number {
+}
+.total_title {
+}
+.reset_btn {
+}
+
 /* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
 
 /**************************/
