@@ -11,24 +11,32 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
 
     <title>Frontend Mentor | Tip calculator app</title>
   </head>
   <body>
     <h1 class="main-title">
-      SPLI
+      S P L I
       <br />
-      TTEL
+      T T E L
     </h1>
 
     <!-- Main container calculator -->
     <div class="container">
       <form accept="#" class="main_item">
         <div class="calculator__left_item">
-          <label class="Bill_title" for="bill_input">Bill</label> <br>
-          <input type="text" placeholder="$" id="bill_input" class="input_bill" />
+          <label class="Bill_title" for="bill_input">Bill</label> <br />
+          <input
+            type="text"
+            placeholder="$"
+            id="bill_input"
+            class="input_bill"
+          />
           <h6 class="select_title">Select tip %</h6>
           <div class="selects">
             <button class="select_btns">5%</button
@@ -45,23 +53,24 @@
           </div>
         </div>
         <div class="calculator__right_item">
-          <div class="tip_amount">
-            <h6 class="tip_title">
-              Tip Amount <br />
-              <span class="person_span">/person</span>
-            </h6>
-
-            <p class="Total_number">$0.00</p>
-
-            <div class="tip_amount">
-              <h6 class="total_title">
-                Total person <br /><span class="person_span">/person</span>
+          <div class="tip_amounts">
+            <div class="tip__amount-item">
+              <h6 class="tip_title">
+                Tip Amount <br />
+                <span class="person_span">/ person</span>
               </h6>
 
               <p class="Total_number">$0.00</p>
             </div>
+            <div class="tip_amount-item2">
+              <h6 class="total_title">
+                Total person <br /><span class="person_span">/ person</span>
+              </h6>
+
+              <p class="Total_number">$0.00</p>
+            </div>
+            <button class="reset_btn">RESET</button>
           </div>
-          <button class="reset_btn">Reset</button>
         </div>
       </form>
     </div>
