@@ -25,10 +25,18 @@ height: 100vh;
   width: 470px;
   height: 200px;
   background-color: white;
+  display: flex;
 }
 .calculator__left_item {
+  padding: 1.2rem 1.4rem;
+  width: 50%;
+  background-color: blueviolet;
 }
 .Bill_title {
+  padding-top: 2rem;
+}
+.input_bill{
+ 
 }
 .select_title {
 }
@@ -39,6 +47,8 @@ height: 100vh;
 .Number_people {
 }
 .calculator__right_item {
+width: 50%;
+background-color: aquamarine;
 }
 .tip_amount {
 }
