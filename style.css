@@ -216,8 +216,6 @@ body {
 /**************************/
 
 @media (max-width: 44em) {
-  .calculator__right_item {
-  }
 
   .main_item {
     flex-direction: column;
